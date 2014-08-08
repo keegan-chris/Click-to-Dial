@@ -1,0 +1,51 @@
+body {
+  padding-top: 50px;
+}
+a {
+    cursor: pointer;
+}
+.content {
+  text-align: center;
+}
+.content p {
+    text-align: left;
+}
+.innerText {
+    margin-right: auto;
+    margin-left: auto;
+    width: 320px;
+    padding: 5px 15px 0 15px;
+}
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    color: #fff!important;
+}
+.navbar-fixed-top {
+    background: #a10b14;
+}
+.backArrow {
+    color: #fff;
+    padding-top: 16px;
+}.backArrow:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+@media (max-width: 768px){
+    .backArrow {
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+}
+.modal-content {
+    background: #dbdadc;
+    color: #000;
+    text-align: center;
+}
+.modalContent p {
+    font-weight: bold;
+}
